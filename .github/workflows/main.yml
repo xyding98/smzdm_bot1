@@ -27,7 +27,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
-          python-version: 3.7
+          python-version: 3.10.19
 
       # Runs a set of commands using the runners shell
       - name: Install requirements
